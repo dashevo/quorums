@@ -1,0 +1,26 @@
+{
+  "name": "quorums-dash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashevo/quorums-dash.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dashevo/quorums-dash/issues"
+  },
+  "homepage": "https://github.com/dashevo/quorums-dash#readme",
+  "dependencies": {
+    "bitcore-message-dash": "^1.0.6",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "ip": "^1.1.5"
+  }
+}
