@@ -18,7 +18,8 @@
   "homepage": "https://github.com/dashevo/quorums-dash#readme",
   "dependencies": {
     "bitcore-message-dash": "^1.0.6",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.4",
+    "randomstring": "^1.1.5"
   },
   "devDependencies": {
     "ip": "^1.1.5"
