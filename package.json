@@ -20,6 +20,7 @@
     "bigi": "1.4.2",
     "bitcore-message-dash": "^1.0.6",
     "lodash": "^4.17.4",
+    "prando": "3.0.1",
     "randomstring": "^1.1.5",
     "sha256": "^0.2.0"
   },
