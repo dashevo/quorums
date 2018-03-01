@@ -1,19 +1,21 @@
-const determination = require('./lib/determination');
-const validation = require('./lib/validation');
-const utils = require('./lib/utils');
-const mocks = require('./lib/mocks');
-const config = require('./lib/config');
+const { getQuorum, getQuorums } = require('./lib/determination');
+const { validate } = require('./lib/validation');
+const {
+  resolveVinFromIp, getHash, getAverageHash, getRefHeight, getHeartBeatInterval, getPOWAveragingNum,
+} = require('./lib/utils');
+const { getDynamicMnList } = require('./lib/mocks');
+const { getConfig } = require('./lib/config');
 
 module.exports = {
-  getQuorum: determination.getQuorum,
-  getQuorums: determination.getQuorums,
-  validate: validation.validate,
-  resolveVinFromIp: utils.resolveVinFromIp,
-  getHash: utils.getHash,
-  getAverageHash: utils.getAverageHash,
-  getRefHeight: utils.getRefHeight,
-  getHeartBeatInterval: utils.getHeartBeatInterval,
-  getDynamicMnList: mocks.getDynamicMnList,
-  getPOWAveragingNum: utils.getPOWAveragingNum,
-  getConfig: config.getConfig,
+  getQuorum,
+  getQuorums,
+  validate,
+  resolveVinFromIp,
+  getHash,
+  getAverageHash,
+  getRefHeight,
+  getHeartBeatInterval,
+  getDynamicMnList,
+  getPOWAveragingNum,
+  getConfig,
 };
