@@ -5,6 +5,6 @@
     "node": true
   },
   "rules": {
-    "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"]
+    "no-restricted-syntax": ["error", "ForOfStatement", "LabeledStatement", "WithStatement"]
   }
 }
