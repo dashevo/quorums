@@ -3,5 +3,8 @@
   "env": {
     "mocha": true,
     "node": true
+  },
+  "rules": {
+    "no-restricted-syntax": ["ForInStatement"]
   }
 }
