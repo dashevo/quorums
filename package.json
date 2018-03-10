@@ -23,7 +23,6 @@
     "bitcore-message-dash": "^1.0.9",
     "ip": "^1.1.5",
     "lodash": "^4.17.5",
-    "prando": "git+ssh://git@github.com/dashevo/prando.git",
     "randomstring": "^1.1.5",
     "sha256": "^0.2.0"
   },
