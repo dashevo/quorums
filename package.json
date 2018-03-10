@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/dashevo/quorums-dash#readme",
   "dependencies": {
-    "bigi": "git+https://github.com/dashevo/bigi.git",
+    "bigi": "git+ssh://git@github.com/dashevo/bigi.git",
     "bitcore-message-dash": "^1.0.9",
     "ip": "^1.1.5",
     "lodash": "^4.17.5",
-    "prando": "git+https://github.com/dashevo/prando.git",
+    "prando": "git+ssh://git@github.com/dashevo/prando.git",
     "randomstring": "^1.1.5",
     "sha256": "^0.2.0"
   },
