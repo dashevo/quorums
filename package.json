@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/ --recursive",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -17,14 +19,17 @@
   },
   "homepage": "https://github.com/dashevo/quorums-dash#readme",
   "dependencies": {
-    "bigi": "1.4.2",
-    "bitcore-message-dash": "^1.0.6",
-    "lodash": "^4.17.4",
-    "prando": "3.0.1",
+    "bigi": "git+ssh://git@github.com/dashevo/bigi.git",
+    "bitcore-message-dash": "^1.0.9",
+    "ip": "^1.1.5",
+    "lodash": "^4.17.5",
     "randomstring": "^1.1.5",
     "sha256": "^0.2.0"
   },
   "devDependencies": {
-    "ip": "^1.1.5"
+    "eslint": "^4.18.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "mocha": "^5.0.1"
   }
 }
