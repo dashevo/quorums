@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/dashevo/quorums-dash#readme",
   "dependencies": {
-    "bigi": "git+ssh://git@github.com/dashevo/bigi.git",
+    "big-integer": "^1.6.26",
     "bitcore-message-dash": "^1.0.9",
     "ip": "^1.1.5",
     "lodash": "^4.17.5",
