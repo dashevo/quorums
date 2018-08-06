@@ -1,6 +1,6 @@
 {
-  "name": "quorums-dash",
-  "version": "1.0.1",
+  "name": "@dashevo/quorums",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dashevo/quorums-dash.git"
+    "url": "git+https://github.com/dashevo/quorums.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dashevo/quorums-dash/issues"
+    "url": "https://github.com/dashevo/quorums/issues"
   },
-  "homepage": "https://github.com/dashevo/quorums-dash#readme",
+  "homepage": "https://github.com/dashevo/quorums#readme",
   "dependencies": {
     "big-integer": "^1.6.26",
     "bitcore-message-dash": "^1.0.9",
