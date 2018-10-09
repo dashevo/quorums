@@ -4,7 +4,7 @@ const {
   resolveVinFromIp, getHash, getAverageHash, getRefHeight, getHeartBeatInterval, getPOWAveragingNum,
 } = require('./lib/utils');
 const { getDynamicMnList } = require('./lib/mocks');
-const { getDynamicDetMnList } = require('./lib/mocks');
+const { getDeterministicMnList } = require('./lib/mocks');
 const { getConfig } = require('./lib/config');
 
 module.exports = {
@@ -17,7 +17,7 @@ module.exports = {
   getRefHeight,
   getHeartBeatInterval,
   getDynamicMnList,
-  getDynamicDetMnList,
+  getDeterministicMnList,
   getPOWAveragingNum,
   getConfig,
 };

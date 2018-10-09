@@ -17,7 +17,7 @@ describe('Determination', () => {
       oldQuorum.nodes.length.should.equal(config.quorumSize);
     });
     it('Length of quorum is equal to quorumSize', async () => {
-      const detMnList = quorums.getDynamicDetMnList();
+      const detMnList = quorums.getDeterministicMnList();
       const quorum = quorums.getQuorum(detMnList, blockhash, txid);
       quorum.nodes.length.should.equal(config.quorumSize);
     });
