@@ -1,6 +1,6 @@
 {
   "quorumSize": 10,
-  "dapiMultiplicator": 1,
+  "dapiMultiplicator": 4,
   "quorumRefHeight": 100,
   "POWAveragingNum": 14,
   "heartbeatInterval": 1
