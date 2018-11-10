@@ -1,7 +1,7 @@
 {
   "name": "@dashevo/quorums",
   "version": "1.0.3",
-  "description": "",
+  "description": "DAPI Quorum helper library",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/ --recursive",
