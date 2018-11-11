@@ -1,10 +1,13 @@
-os: linux
+sudo: false
+dist: trusty
 language: node_js
 node_js:
   - '8'
+  - '10'
+
 install:
   - npm install
-before_install:
-  - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
-before_script:
+
+script:
   - npm run lint
+  - npm run test
