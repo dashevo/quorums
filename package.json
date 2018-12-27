@@ -20,7 +20,7 @@
   "homepage": "https://github.com/dashevo/quorums#readme",
   "dependencies": {
     "big-integer": "^1.6.26",
-    "@dashevo/dashcore-lib": "1.0.0-alpha.14",
+    "@dashevo/dashcore-lib": "1.0.0-alpha.22",
     "ip": "^1.1.5",
     "lodash": "^4.17.5",
     "randomstring": "^1.1.5",
