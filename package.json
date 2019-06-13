@@ -1,6 +1,6 @@
 {
   "name": "@dashevo/quorums",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "DAPI Quorum helper library",
   "main": "index.js",
   "scripts": {
