@@ -19,10 +19,10 @@
   },
   "homepage": "https://github.com/dashevo/quorums#readme",
   "dependencies": {
-    "big-integer": "^1.6.43",
     "@dashevo/dashcore-lib": "^0.17.4",
+    "big-integer": "^1.6.43",
     "ip": "^1.1.5",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.15",
     "randomstring": "^1.1.5",
     "sha256": "^0.2.0"
   },
