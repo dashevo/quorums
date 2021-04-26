@@ -1,6 +1,6 @@
 # Quorums
 
-[![Build Status](https://github.com/dashevo/quorums/actions/workflows/test.yml/badge.svg)](https://github.com/dashevo/quorums/actions/workflows/test.yml)
+[![Build Status](https://github.com/dashevo/quorums/actions/workflows/test_and_release.yml/badge.svg)](https://github.com/dashevo/quorums/actions/workflows/test_and_release.yml)
 [![NPM version](https://img.shields.io/npm/v/@dashevo/quorums.svg)](https://npmjs.org/package/@dashevo/quorums)
 
 DAPI Quorum helper library
