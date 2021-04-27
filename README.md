@@ -1,10 +1,9 @@
 # Quorums
 
-[![Build Status](https://travis-ci.com/dashevo/quorums.svg?token=Pzix7aqnMuGS9c6BmBz2&branch=master)](
-https://travis-ci.org/dashevo/quorums)
+[![Build Status](https://github.com/dashevo/quorums/actions/workflows/test_and_release.yml/badge.svg)](https://github.com/dashevo/quorums/actions/workflows/test_and_release.yml)
 [![NPM version](https://img.shields.io/npm/v/@dashevo/quorums.svg)](https://npmjs.org/package/@dashevo/quorums)
 
-> DAPI Quorum helper library
+DAPI Quorum helper library
 
 ## Table of Contents
 - [Install](#install)
